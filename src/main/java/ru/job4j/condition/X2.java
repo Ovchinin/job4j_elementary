@@ -5,20 +5,11 @@ public class X2 {
         return a * x * x + b * x + c;
     }
 
-//    public static void main(String[] args) {
-//        int a = 10;
-//        int b = 0;
-//        int c = 0;
-//        int x = 2;
-//        int result = X2.calc(a, b, c, x);
-//        System.out.println(result);
-//    }
-
     public static void main(String[] args) {
-        int a = 1;
-        int b = 1;
-        int c = 1;
-        int x = 0;
+        int a = 10;
+        int b = 0;
+        int c = 0;
+        int x = 2;
         int result = X2.calc(a, b, c, x);
         System.out.println(result);
     }
