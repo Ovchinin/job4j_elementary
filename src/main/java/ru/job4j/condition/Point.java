@@ -10,7 +10,9 @@ public class Point {
     public static void main(String[] args) {
         double result = distance(0, 0, 2, 0);
         double result2 = distance(7, 3, 2, 1);
+        double result3 = distance(-2, 0, 1, -5);
         System.out.println("Distance between A and B is " + result);
         System.out.println("Distance between A and B is " + result2);
+        System.out.println("Distance between A and B is " + result3);
     }
 }
